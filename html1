@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Primeira Pagina</title>
+</head>
+<body>
+    <h1>Olha a Promo!</h1>
+    <p>Esta e a minha primeira pagina HTML.</p>
+    
+    <img src="https://via.placeholder.com/150" alt="Nike - Tenis da Hora">
+
+    <p>Visite o <a href="https://www.google.com" target="_blank">Google</a>.</p>
+
+    <p>Este site foi desenvolvido por <a href="eu.html">Nunes</a>.</p>
+</body>
+</html>
