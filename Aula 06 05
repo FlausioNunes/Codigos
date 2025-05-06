@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - PART 2</title>
+</head>
+   
+<body>
+
+    <h2>hobbies do 2 TINF</h2>
+
+    <P> A lista a seguir mostra os interesses na turma do segundo de informática.</P>
+
+    <ul>
+        <li>tomar banho</li>
+        <li>jogar video game</li>
+        <li>andar na rua</li>
+        <li>leitura</li>
+    </ul>
+    <h2>materias de que mais gosta</h2>
+    <li>matematica</li>
+    <li>português</li>
+    <li>progamação</li>
+    <li>física</li>
+    </ol>
+    <h2>Representantes de turma</h2>
+    <ul>
+        <li>Gabriel Mendes</li>
+        <ul>
+            <li>Nando</li>
+        </ul>
+    </ul>
+
+    <h2>Tabela de perda de pontos</h2>
+
+    <table>
+        <tr>
+            <th>Nome | </th>
+            <th>qtd di pontos</th>
+        </tr>
+    <tr>
+        <td>?????</td>
+        <td>-1</td>
+    </tr>
+        <tablet>
+
+    <div>
+        testando uma div
+        /<div>
+
+</body>
+
+</html>
