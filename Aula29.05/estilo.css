@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 29.05</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px 20px;
+        }
+
+        form {
+            background: #ffffff;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-weight: 600;
+            display: block;
+            margin-top: 20px;
+            color: #444;
+        }
+
+        input[type="text"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            margin-top: 8px;
+            box-sizing: border-box;
+            font-size: 15px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        .radio-group,
+        .checkbox-group {
+            margin-top: 10px;
+        }
+
+        .radio-group label,
+        .checkbox-group label {
+            font-weight: normal;
+            margin-left: 8px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-top: 10px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            margin-top: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsivo */
+        @media (max-width: 600px) {
+            form {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <form action="https://www.google.com/">
+        <h1>Testando Formulários</h1>
+
+        <label for="nomeprincipal">Nome</label>
+        <input type="text" id="nomeprincipal">
+
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" id="sobrenome">
+
+        <label>Curso:</label>
+        <div class="radio-group">
+            <input type="radio" name="curso" value="TINF" id="curso1"><label for="curso1">Técnico em Informática</label><br>
+            <input type="radio" name="curso" value="TADM" id="curso2"><label for="curso2">Técnico em Administração</label><br>
+            <input type="radio" name="curso" value="TELE" id="curso3"><label for="curso3">Técnico em Eletrônica</label><br>
+            <input type="radio" name="curso" value="TCONT" id="curso4"><label for="curso4">Técnico em Contabilidade</label>
+        </div>
+
+        <label>Já Estagiou?</label>
+        <div class="radio-group">
+            <input type="radio" name="estagio" value="Sim!" id="estagio1"><label for="estagio1">Sim!</label><br>
+            <input type="radio" name="estagio" value="Não" id="estagio2"><label for="estagio2">Não</label>
+        </div>
+
+        <label for="disciplina">Disciplina Favorita:</label>
+        <select id="disciplina">
+            <option value="Prog">Programação</option>
+            <option value="Mat">Matemática</option>
+            <option value="Bio">Biologia</option>
+            <option value="EdFisic">Educação Física</option>
+        </select>
+
+        <label for="motivo">Por que selecionou este curso?</label>
+        <textarea id="motivo" rows="5"></textarea>
+
+        <label>Qual seu turno favorito?</label>
+        <div class="checkbox-group">
+            <input type="checkbox" value="manha" id="turno1"><label for="turno1">Manhã</label><br>
+            <input type="checkbox" value="tarde" id="turno2"><label for="turno2">Tarde</label><br>
+            <input type="checkbox" value="noite" id="turno3"><label for="turno3">Noite</label>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
